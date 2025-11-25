@@ -157,3 +157,13 @@
     text-decoration: underline;
 }
 
+.customer-logo {
+    height: 90px;            /* ← adjust this value as needed */
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

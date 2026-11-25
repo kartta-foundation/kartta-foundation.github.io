@@ -1,276 +1,74 @@
-<!DOCTYPE html>
-<html dir="ltr" lang="en-US">
-
+<!doctype html>
+<html lang="en">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets -->
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lato:wght@400;500;600;700&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<title>Kartta Foundation</title>
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Geospatial digital forensics for attorneys. Kartta Foundation examines GIS data, historical maps, and spatial analysis to help counsel understand the evidence.">
+  <meta name="theme-color" content="#142e2b">
+  <meta property="og:title" content="Kartta Foundation | Geospatial Digital Forensics">
+  <meta property="og:description" content="Understand the data behind the map. Independent technical analysis for attorneys and legal teams.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kartta-foundation.github.io/">
+  <link rel="canonical" href="https://kartta-foundation.github.io/">
+  <link rel="stylesheet" href="css/forensics.css">
+  <title>Geospatial Digital Forensics for Attorneys | Kartta Foundation</title>
 </head>
-
-<body class="stretched">
-
-	<div id="wrapper" class="clearfix">
-
-		<header id="header" class="d-none">
-			<div id="header-wrap"></div>
-		</header>
-
-		<!-- Hero Section -->
-		<section id="slider" class="slider-element slider-parallax min-vh-100 dark">
-			<div class="slider-inner"
-				style="background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.3)), url('images/blocks/preview/hero-13.jpg') top center no-repeat; background-size: cover;">
-
-				<div class="vertical-middle">
-					<div class="container py-5 py-md-0">
-						<div class="row parallax" data-0-start="opacity:1; transform: translateY(0px);"
-							data-0-end="opacity:0.1; transform: translateY(-30px);">
-							<div class="col-lg-7 col-md-8">
-								<h1 class="display-4 fw-bold">Kartta Foundation</h1>
-								<p class="lead text-white-50 mb-5">A 501(c)(3) organization providing software and
-									services to distill and assemble geographic knowledge for the public good</p>
-								<p class="lead text-white-50 mb-5"> Contact us: kartta.foundation@gmail.com</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Scroll Down Indicator -->
-		        <a href="#content" class="scroll-down-indicator circle">
-				    <i class="icon-angle-down"></i>
-				    <i class="icon-angle-down"></i>
-				</a>
-
-			</div>
-
-		</section>
-
-		<!-- Services Section -->
-		<section id="content">
-			<div class="content-wrap">
-
-				<div class="container clearfix">
-					<div class="row justify-content-center mb-5">
-						<div class="col-md-8 text-center">
-							<h2 class="fw-bold">Our Services</h2>
-							<p class="lead">Kartta Foundation develops advanced machine learning tools for historical map processing, geospatial AI, and semantic extraction.</p>
-							<p class="github-link mt-2">
-							    <a href="https://github.com/kartta-foundation" target="_blank" class="github-link">
-							        <i class="icon-github"></i> &nbsp; github.com/kartta-foundation
-							    </a>
-							</p>
-						</div>
-					</div>
-
-					<div class="row">
-
-						<!-- mapKurator -->
-						<div class="col-lg-4 col-md-6 mb-4">
-					        <div class="service-tile bg-mapkurator h-100 p-4 rounded shadow-sm">
-					            <div class="d-flex align-items-center mb-3">
-					                <div class="logo-badge">
-									    <img src="images/services/mapkurator-logo.png">
-									</div>
-									<h4 class="mb-0 text-white">mapKurator</h4>
-					            </div>
-					            <p class="mb-3 text-white-90">
-					                Automated pipeline for detecting, extracting, and geocoding text from
-					                scanned historical maps.
-					            </p>
-					            <ul class="list-unstyled text-white-80 mb-0">
-					                <li><strong>Paper:</strong> <a class="service-link" href="https://dl.acm.org/doi/abs/10.1145/3589132.3625579" target="_blank">The mapKurator System: A Complete Pipeline for Extracting and Linking Text from Historical Maps</a></li>
-					                <!-- <li><strong>GitHub:</strong> <a class="service-link" href="#" target="_blank">Add repo</a></li> -->
-					            </ul>
-					        </div>
-					    </div>
-
-						<!-- PALETTE -->
-						<div class="col-lg-4 col-md-6 mb-4">
-					        <div class="service-tile bg-palette h-100 p-4 rounded shadow-sm">
-					            <div class="d-flex align-items-center mb-3">
-					                <div class="logo-badge">
-									    <img src="images/services/palette-logo.png">
-									</div>
-									<h4 class="mb-0 text-white">PALETTE</h4>
-					            </div>
-					            <p class="mb-3 text-white-90">
-					                End-to-end text spotting model for historical maps, supporting Latin (English), Tranditional Chinese, and Japanese.
-					            </p>
-					            <ul class="list-unstyled text-white-80 mb-0">
-					                <li><strong>Paper:</strong> <a class="service-link" href="https://dl.acm.org/doi/10.1145/3637528.3671589" target="_blank">Hyper-local deformable transformers for text spotting on historical maps</a></li>
-					                <!-- <li><strong>GitHub:</strong> <a class="service-link" href="#" target="_blank">Add repo</a></li> -->
-					            </ul>
-					        </div>
-					    </div>
-
-					    <!-- LIGHT -->
-					    <div class="col-lg-4 col-md-6 mb-4">
-					        <div class="service-tile bg-light h-100 p-4 rounded shadow-sm">
-					            <div class="d-flex align-items-center mb-3">
-					                <div class="logo-badge">
-									    <img src="images/services/light-logo.png">
-									</div>
-					                <h4 class="mb-0 text-white">LIGHT</h4>
-					            </div>
-					            <p class="mb-3 text-white-90">
-					                Multi-modal text linking model that fuse text's spatial structure, visual cues,
-					                and linguistic context to group map text into meaningful phrases.
-					            </p>
-					            <ul class="list-unstyled text-white-80 mb-0">
-					                <li><strong>Paper:</strong> <a class="service-link" href="https://link.springer.com/chapter/10.1007/978-3-032-04617-8_4" target="_blank">LIGHT: Multi-modal Text Linking on Historical Maps</a></li>
-					                <!-- <li><strong>GitHub:</strong> <a class="service-link" href="#" target="_blank">Add repo</a></li> -->
-					            </ul>
-					        </div>
-					    </div>
-
-
-					</div> <!-- row -->
-				</div>
-
-
-				<!-- Our Customers -->
-				<div class="section mt-5 mb-3" id="customers">
-				    <div class="container">
-
-				        <div class="row justify-content-center mb-5">
-				            <div class="col-md-8 text-center">
-				                <h2 class="fw-bold">Our Customers</h2>
-				                <p class="lead">We collaborate with academic institutions, research labs, and government agencies who rely on Kartta Foundation’s tools for historical map processing and geospatial AI.</p>
-				            </div>
-				        </div>
-
-				        <div class="row">
-
-				            <!-- Customer 1 -->
-				            <div class="col-lg-4 col-md-6 mb-5">
-				                <div class="customer-card text-center p-4 h-100">
-				                    <img src="images/customers/Academia_Sinica.png" alt="Customer 1 Logo"
-				                         class="customer-logo mb-3">
-				                    <h4 class="fw-semibold mb-1">Center for GIS, RCHSS, Academia Sinica, Taiwan</h4>
-				                    <!-- <p class="text-muted mb-0">Short description of what this customer uses your tools for.</p> -->
-				                </div>
-				            </div>
-
-				            <!-- Customer 2 -->
-				            <div class="col-lg-4 col-md-6 mb-5">
-				                <div class="customer-card text-center p-4 h-100">
-				                    <img src="images/customers/Ritsumeikan_Uni.png" alt="Customer 2 Logo"
-				                         class="customer-logo mb-3">
-				                    <h4 class="fw-semibold mb-1">Ritsumeikan University, Japan</h4>
-				                    <!-- <p class="text-muted mb-0">Short description of the collaboration or usage.</p> -->
-				                </div>
-				            </div>
-
-				        </div>
-
-				    </div>
-				</div>
-
-				<!-- Team Section -->
-				<div class="section mt-5 mb-3">
-					<div class="container">
-
-						<div class="row justify-content-center mb-5">
-							<div class="col-md-8 text-center">
-								<h2 class="fw-bold">Our Team</h2>
-								<p class="lead">Meet the leadership behind Kartta Foundation.</p>
-							</div>
-						</div>
-
-						<div class="row">
-
-							<!-- CEO -->
-							<div class="col-lg-4 col-md-6 mb-5 text-center">
-								<img src="images/team/yaoyichiang.png" class="rounded-circle mb-3" style="width:180px;"
-									alt="CEO Photo">
-								<h4 class="fw-bold">Yao-Yi Chiang</h4>
-								<p class="text-muted">Founder/CEO</p>
-								<!-- <p>Short description of CEO background and role.</p> -->
-								<a href="#" target="_blank">https://yaoyichi.github.io/</a>
-							</div>
-
-							<!-- CTO -->
-							<div class="col-lg-4 col-md-6 mb-5 text-center">
-								<img src="images/team/zekunli.png" class="rounded-circle mb-3" style="width:180px;"
-									alt="CTO Photo">
-								<h4 class="fw-bold">Zekun Li</h4>
-								<p class="text-muted">Chief Technology Officer</p>
-								<!-- <p>Short description of CTO background and role.</p> -->
-								<a href="#" target="_blank">https://zekun-li.github.io/</a>
-							</div>
-
-							<!-- Principal Scientist -->
-							<div class="col-lg-4 col-md-6 mb-5 text-center">
-								<img src="images/team/yijunlin.png" class="rounded-circle mb-3"
-									style="height:180px; width:180px;" alt="Principal Scientist Photo">
-								<h4 class="fw-bold">Yijun Lin</h4>
-								<p class="text-muted">Chief Scientist</p>
-								<!-- <p>Short description of scientific expertise and role.</p> -->
-								<a href="#" target="_blank">https://linyijun.github.io/</a>
-							</div>
-
-						</div>
-
-					</div>
-				</div>
-
-			</div>
-		</section>
-
-		<!-- Contact Section (Dark) -->
-		<section id="contact" class="py-5" style="background:#111; color:#eee; margin-top:0;">
-		    <div class="container text-center">
-
-		        <h3 class="fw-bold mb-3">Contact Us</h3>
-		        <p class="mb-4" style="color:#ccc;">
-		            Have questions or want to collaborate? We’d love to hear from you.
-		        </p>
-
-		        <p class="lead mb-3">
-		            <a href="mailto:kartta.foundation@gmail.com" class="contact-email-dark">
-		                kartta.foundation@gmail.com
-		            </a>
-		        </p>
-
-				<hr class="my-4" style="max-width:400px; margin-left:auto; margin-right:auto; border-color:rgba(255,255,255,0.2);">
-
-		        <p class="text-muted mb-0" style="color:#bbb !important;">
-		            &copy; <span id="footer-year"></span> Kartta Foundation. All rights reserved.
-		        </p>
-
-		    </div>
-		</section>
-
-
-	</div>
-
-	<!-- Go To Top -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- JS -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-	<script src="js/jquery.hotspot.js"></script>
-	<script src="js/functions.js"></script>
-	<script>
-	    document.getElementById('footer-year').textContent = new Date().getFullYear();
-	</script>
-
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="#" aria-label="Kartta Foundation home"><span class="brand-symbol" aria-hidden="true">k.</span><span>KARTTA<span class="brand-sub">FOUNDATION</span></span></a>
+  <nav aria-label="Main navigation"><a href="#services">Services</a><a href="#approach">Approach</a><a href="#expertise">Expertise</a><a class="nav-contact" href="#contact">Discuss a matter <span aria-hidden="true">↗</span></a></nav>
+</header>
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-copy"><p class="eyebrow"><span class="dot"></span> GEOSPATIAL DIGITAL FORENSICS</p>
+      <h1 id="hero-title">Understand the evidence<br>behind the <em>map.</em></h1>
+      <p class="intro">Technical clarity for attorneys working with geospatial data.</p>
+      <p class="hero-detail">We examine GIS datasets, historical maps, and spatial analysis to help counsel understand what the evidence supports, where it is uncertain, and which questions need further investigation.</p>
+      <a class="button" href="#contact">Discuss your matter <span aria-hidden="true">↗</span></a>
+      <a class="text-link" href="#services">Explore our services <span aria-hidden="true">↓</span></a>
+    </div>
+    <div class="evidence-graphic" role="img" aria-label="Illustrative geospatial analysis showing overlapping map layers and a highlighted discrepancy. This is a schematic, not client data.">
+      <div class="graphic-top"><span>SPATIAL EVIDENCE / ANALYSIS</span><span>01 — 03</span></div>
+      <svg viewBox="0 0 540 430" aria-hidden="true">
+        <defs><pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M 30 0 L 0 0 0 30" fill="none" stroke="#2e514b" stroke-width=".7"/></pattern></defs>
+        <rect width="540" height="430" fill="url(#grid)"/>
+        <g fill="none" stroke="#40645c" stroke-width="1"><path d="M-20 75 Q95 5 170 74 T340 55 T570 80"/><path d="M-30 98 Q95 27 170 97 T340 78 T570 103"/><path d="M-20 120 Q95 50 170 120 T340 101 T570 126"/><path d="M-20 340 Q100 250 211 333 T430 310 T570 280"/><path d="M-20 360 Q100 270 211 353 T430 330 T570 300"/><path d="M-20 380 Q100 290 211 373 T430 350 T570 320"/></g>
+        <g fill="#28473f" fill-opacity=".6" stroke="#7a9a88" stroke-width="1.2"><path d="M92 163 199 119 241 207 135 249Z"/><path d="M199 119 314 87 351 176 241 207Z"/><path d="M135 249 241 207 280 298 175 337Z"/><path d="M241 207 351 176 394 264 280 298Z"/></g>
+        <g fill="none" stroke="#d9e3d6" stroke-width="2"><path d="M-10 286 120 237 234 191 344 160 550 100"/><path d="M178 -10 216 97 259 188 302 280 375 440"/></g>
+        <path d="M241 207 351 176 394 264 280 298Z" fill="#d7ac69" fill-opacity=".15" stroke="#e8bd7b" stroke-width="2"/>
+        <path d="M251 215 361 184 404 272 290 306Z" fill="none" stroke="#e8bd7b" stroke-dasharray="5 5" stroke-width="1.5"/>
+        <circle cx="351" cy="176" r="7" fill="#e8bd7b"/><circle cx="351" cy="176" r="16" fill="none" stroke="#e8bd7b" stroke-opacity=".5"/>
+        <path d="M365 173 410 145 499 145" fill="none" stroke="#e8bd7b"/><text x="416" y="133" fill="#f1d6ad" font-size="10" font-family="monospace">COMPARE</text>
+        <g fill="#a9bfb0" font-family="monospace" font-size="10"><text x="28" y="34">N ↑</text><text x="28" y="407">SOURCE → METHOD → FINDING</text></g>
+      </svg>
+      <div class="graphic-bottom"><span><i class="legend-line"></i> Source layer</span><span><i class="legend-line amber"></i> Comparison</span><span>ILLUSTRATIVE ONLY</span></div>
+      <div class="graphic-caption"><span>01 / TRACE THE SOURCE</span><p>A map is a claim.<br>The underlying data tells the story.</p></div>
+    </div>
+  </section>
+  <div class="scope-strip"><p>GIS &amp; spatial data</p><span aria-hidden="true">/</span><p>Historical maps</p><span aria-hidden="true">/</span><p>Data provenance</p><span aria-hidden="true">/</span><p>Independent technical review</p></div>
+  <section class="section" id="services" aria-labelledby="services-title">
+    <div class="section-heading"><p class="eyebrow">01 / SERVICES FOR COUNSEL</p><h2 id="services-title">When location matters,<br>the details matter.</h2><p>A persuasive map still needs a sound technical basis. We help legal teams examine the sources, assumptions, and processing steps behind geospatial evidence.</p></div>
+    <div class="service-grid">
+      <article><span class="item-number">01</span><h3>Examine geospatial data</h3><p>Review GIS layers, attributes, metadata, and available source records. Identify inconsistencies, missing information, and questions about how a dataset was created or modified.</p><p class="output">Focus: provenance &amp; data quality</p></article>
+      <article><span class="item-number">02</span><h3>Reconstruct historical context</h3><p>Extract and compare information from historical maps and geographic records. Assess alignment, map scale, and changes over time before drawing conclusions.</p><p class="output">Focus: historical map analysis</p></article>
+      <article><span class="item-number">03</span><h3>Evaluate spatial claims</h3><p>Examine the methods behind boundaries, distances, overlays, and counts. Assess whether different inputs or assumptions change the result.</p><p class="output">Focus: methods &amp; uncertainty</p></article>
+      <article><span class="item-number">04</span><h3>Explain the findings</h3><p>Translate technical analysis into clear written findings and annotated maps. Help counsel identify follow-up questions and understand the limits of the available evidence.</p><p class="output">Focus: clear technical communication</p></article>
+    </div>
+  </section>
+  <section class="approach section" id="approach" aria-labelledby="approach-title">
+    <div class="section-heading"><p class="eyebrow">02 / OUR APPROACH</p><h2 id="approach-title">Follow the evidence.<br>Make the reasoning clear.</h2><p>The scope starts with your technical question. The analysis should make its sources, methods, and limitations understandable to counsel.</p></div>
+    <ol class="steps"><li><h3>Define the question</h3><p>Discuss the matter at a high level, check for conflicts, and agree on the scope and handling of materials before substantive review.</p></li><li><h3>Trace and examine</h3><p>Identify the available sources and processing history. Compare datasets and test the assumptions relevant to the question.</p></li><li><h3>Document and explain</h3><p>Present the findings with supporting sources, methods, and limitations. Distinguish observations from interpretations and unresolved questions.</p></li></ol>
+  </section>
+  <section class="section" id="expertise" aria-labelledby="expertise-title">
+    <div class="section-heading"><p class="eyebrow">03 / TECHNICAL FOUNDATION</p><h2 id="expertise-title">Deep expertise in<br>geographic information.</h2><p>Kartta develops tools for historical map processing and geospatial AI. This research provides a technical foundation for examining how geographic information is extracted, linked, and interpreted.</p></div>
+    <div class="research-grid"><article><p class="eyebrow">MAP TEXT EXTRACTION</p><h3>mapKurator</h3><p>A pipeline for extracting and linking text from historical maps.</p><a href="https://dl.acm.org/doi/abs/10.1145/3589132.3625579">Read the research <span aria-hidden="true">↗</span></a></article><article><p class="eyebrow">TEXT DETECTION &amp; RECOGNITION</p><h3>PALETTE</h3><p>Text spotting methods designed for the challenges of historical maps.</p><a href="https://dl.acm.org/doi/10.1145/3637528.3671589">Read the research <span aria-hidden="true">↗</span></a></article><article><p class="eyebrow">SPATIAL &amp; SEMANTIC CONTEXT</p><h3>LIGHT</h3><p>Linking map text through spatial structure, visual cues, and language.</p><a href="https://link.springer.com/chapter/10.1007/978-3-032-04617-8_4">Read the research <span aria-hidden="true">↗</span></a></article></div>
+    <p class="research-note">These are public research projects, separate from confidential consulting engagements. <a href="https://github.com/kartta-foundation">Explore our open-source work ↗</a></p>
+  </section>
+  <section class="confidentiality section" aria-labelledby="confidentiality-title"><p class="eyebrow">CONFIDENTIALITY</p><h2 id="confidentiality-title">The work can be rigorous.<br>The details can stay private.</h2><p>We do not share client identities, case materials, or engagement details without authorization. Any public case summary must be reviewed for confidentiality and identifying details before publication.</p></section>
+  <section class="section team" aria-labelledby="team-title"><div class="section-heading"><p class="eyebrow">04 / OUR TEAM</p><h2 id="team-title">Meet Kartta.</h2></div><div class="team-grid"><article><img src="images/team/yaoyichiang.png" alt="Yao-Yi Chiang" width="180" height="180" loading="lazy"><h3>Yao-Yi Chiang</h3><p>Founder / CEO</p><a href="https://yaoyichi.github.io/">Professional profile ↗</a></article><article><img src="images/team/zekunli.png" alt="Zekun Li" width="180" height="180" loading="lazy"><h3>Zekun Li</h3><p>Chief Technology Officer</p><a href="https://zekun-li.github.io/">Professional profile ↗</a></article><article><img src="images/team/yijunlin.png" alt="Yijun Lin" width="180" height="180" loading="lazy"><h3>Yijun Lin</h3><p>Chief Scientist</p><a href="https://linyijun.github.io/">Professional profile ↗</a></article></div></section>
+  <section class="contact section" id="contact" aria-labelledby="contact-title"><div><p class="eyebrow">LET’S START WITH THE QUESTION</p><h2 id="contact-title">Have geospatial evidence<br>that needs a closer look?</h2><p>Tell us the general technical issue, your firm, and any relevant deadlines. We can discuss fit, availability, and next steps.</p><a class="button" href="mailto:kartta.foundation@gmail.com?subject=Geospatial%20forensics%20consultation">Request an initial discussion <span aria-hidden="true">↗</span></a><a class="email" href="mailto:kartta.foundation@gmail.com">kartta.foundation@gmail.com</a></div><aside><h3>Before sharing materials</h3><p>Please keep your first email general. Do not attach confidential documents, evidence, or sensitive case details. We will coordinate a conflict check and an appropriate way to share materials.</p></aside></section>
+</main>
+<footer><a class="footer-name" href="#">Kartta Foundation</a><p>A 501(c)(3) organization advancing geographic knowledge for the public good.</p><p>© Kartta Foundation. All rights reserved.</p></footer>
 </body>
-
 </html>

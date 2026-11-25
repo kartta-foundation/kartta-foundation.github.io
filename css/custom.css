@@ -158,6 +158,7 @@
 }
 
 .customer-logo {
+    max-width: 100%;
     height: 90px;            /* ← adjust this value as needed */
     width: auto;
     object-fit: contain;

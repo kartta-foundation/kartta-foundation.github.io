@@ -167,3 +167,43 @@
     margin-right: auto;
 }
 
+
+/* Forensics services use the same cards and colors as the existing tools. */
+.forensic-badge {
+    flex: 0 0 40px;
+    color: #333;
+    font-size: 19px;
+}
+
+.forensic-tile .forensic-detail {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    padding-top: 16px;
+    font-size: 0.9rem;
+}
+
+.engagement-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.engagement-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    background: #eaf0ff;
+    color: #2f4fcc;
+    font-size: 26px;
+}
+
+.engagement-label {
+    color: #666;
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    margin-bottom: 10px;
+}

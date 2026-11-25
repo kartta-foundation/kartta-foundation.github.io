@@ -89,6 +89,7 @@
 .logo-badge {
     width: 40px;
     height: 40px;
+    flex: 0 0 40px;
     background: #ffffff;
     border-radius: 50%;
     display: flex;
@@ -207,4 +208,65 @@
     font-size: 0.75rem;
     letter-spacing: 0.04em;
     margin-bottom: 10px;
+}
+
+/* Keep the original appearance while aligning repeated card elements. */
+.hero-contact {
+    color: inherit;
+    overflow-wrap: anywhere;
+}
+
+.hero-contact:hover,
+.hero-contact:focus-visible {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.service-tile {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-tile > ul:last-child,
+.service-tile > .forensic-detail:last-child {
+    margin-top: auto;
+}
+
+.customer-mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    margin-bottom: 16px;
+}
+
+.customer-mark .customer-logo,
+.customer-mark .engagement-icon {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .customer-card h4 {
+        min-height: 4.5em;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #geospatial-forensics .button {
+        height: auto;
+        white-space: normal;
+        line-height: 1.5;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .scroll-down-indicator.circle {
+        animation: none;
+    }
+
+    .service-tile {
+        transition: none;
+    }
 }
